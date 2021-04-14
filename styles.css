@@ -1,0 +1,88 @@
+body{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  margin-top: 80px;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: teal;
+  width: 100%;
+  height: 80px;
+  top: 0;
+  z-index: 1;
+  position: fixed;
+
+}
+header h2{
+  padding-left: 30px;
+  color: ivory;
+}
+
+.nav-links li {
+  text-transform: uppercase;
+  display: inline;
+  padding-right: 30px;
+  list-style: none;
+
+}
+.nav-links a {
+  text-decoration: none;
+}
+
+a:link{
+  color: ivory;
+}
+
+a:visited{
+  color: ivory;
+}
+
+a:hover{
+  color: purple;
+}
+
+a:active{
+  color: black;
+}
+
+.main-container{ 
+  background-image: url("./resources/images/copenhagen0315-2000.jpg");
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  flex-direction: colum;
+  justify-content: center;
+  align-items: center;
+
+  }
+
+section h1{
+  color: ivory;
+  font-size: 48px;
+  text-shadow: 2px 2px grey;
+  text-align: center;
+ 
+}
+section p{
+  color: red;
+  font-size: 36px;
+  text-shadow: 2px 2px grey;
+  text-align: center;
+
+ }
+
+ section .button {
+  background-color: teal;
+  border: darkcyan;
+  color: ivory;
+  padding: 18px 38px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 100px;
+ }
